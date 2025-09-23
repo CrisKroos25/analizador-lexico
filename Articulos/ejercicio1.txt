@@ -1,0 +1,4 @@
+entero numero1 = 5 + 10
+si (numero1 > 3) {
+    hacer
+}

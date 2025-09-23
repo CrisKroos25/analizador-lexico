@@ -1,0 +1,6 @@
+decimal precio = 99
+decimal iva = 0.12
+decimal total = precio * iva + precio
+si (total > 100) {
+    hacer
+}

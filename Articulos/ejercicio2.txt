@@ -1,0 +1,7 @@
+decimal promedio = 45 / 5
+booleano activo = verdadero
+si (promedio >= 9) {
+    hacer
+} sino {
+    hacer
+}

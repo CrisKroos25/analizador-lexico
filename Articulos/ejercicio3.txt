@@ -1,0 +1,4 @@
+entero contador = 0
+mientras (contador < 10) {
+    contador = contador + 1
+}
