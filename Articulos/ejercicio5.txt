@@ -1,0 +1,25 @@
+funcion sumar(a, b) {
+    entero x = 5;
+    retornar a + b;
+}
+
+entero x = 10;
+decimal total = sumar(x, 3;
+
+cadena saludo = "hola;
+entero 2contador = 0;
+booleano activo = verdadero
+
+si (total >= 10) {
+    sumar(10, 20, 30);
+} sino {
+    hacer
+}
+
+si (x + ) {
+    x = x + 1;
+}
+
+mientras (x < 5) hacer {
+    y = x * 2;
+}

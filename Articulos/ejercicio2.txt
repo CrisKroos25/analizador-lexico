@@ -1,0 +1,8 @@
+
+si (x > 5) { hacer }
+si (x < 10) { hacer }
+si (x == 3) { hacer }
+si (x + 4) { hacer }
+si (x >= 7) { hacer }
+si (x <= 2) { hacer }
+

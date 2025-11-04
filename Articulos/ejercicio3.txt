@@ -1,0 +1,8 @@
+funcion sumar(a, b) {
+    entero r = a + b;
+    retornar r;
+}
+
+entero x = 5;
+decimal y = 3;
+decimal z = sumar(x, y);

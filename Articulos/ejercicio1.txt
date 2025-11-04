@@ -1,0 +1,6 @@
+1booleano = 10;
+si ($y > 3) {
+    hacer;
+}
+
+

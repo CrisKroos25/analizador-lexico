@@ -1,0 +1,148 @@
+/* ---------- Ventana principal ---------- */
+QWidget {
+    background-color: #f5f5f5;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-size: 12pt;
+}
+
+/* ---------- QTabWidget / QTabBar ---------- */
+QTabWidget::pane {
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    background-color: #f0f0f0f;
+    padding: 8px;
+}
+
+QTabBar::tab {
+    background: #e0e0e0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-right: 6px;
+    color: #333333;
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background: #3498db;
+    color: white;
+}
+
+/* ---------- Entradas (QLineEdit) ---------- */
+QLineEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 6px;
+    selection-background-color: #3498db;
+}
+
+/* ---------- Botones ---------- */
+QPushButton {
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #008080;
+}
+
+/* Específicos */
+
+QPushButton#btn_1 {
+    background-color: None;
+}
+QPushButton#btn_1:hover {
+    border: 1px solid #3498db;
+}
+
+QPushButton#btn_agregar {
+    background-color: #2ecc71;
+}
+
+QPushButton#btn_agregar:hover {
+    background-color: #27ae60;
+}
+
+QPushButton#btn_edit {
+    background-color: #f1c40f;
+    color: black;
+}
+
+QPushButton#btn_edit:hover {
+    background-color: #d4ac0d;
+}
+
+QPushButton#btn_delete {
+    background-color: #e74c3c;
+}
+
+QPushButton#btn_delete:hover {
+    background-color: #c0392b;
+}
+
+/* ---------- Tabla de clientes ---------- */
+QTableWidget {
+    background-color: #ffffff;
+    color: #000000;
+    gridline-color: #d0d0d0;
+    border-radius: 10px;
+    alternate-background-color: #f9f9f9;
+}
+
+QHeaderView::section {
+    background-color: #008080;
+    color: white;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+
+QTableWidget::item:selected {
+    background-color: #d6eaf8;
+}
+
+/* ---------- Scrollbars ---------- */
+QScrollBar:vertical {
+    background: #f0f0f0;
+    width: 10px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: #cccccc;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #aaaaaa;
+}
+
+/* ---------- Tooltips ---------- */
+QToolTip {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+}
+
+QLabel#titulo_principal {
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                stop:0 #f7971e, stop:1 #ffd200);
+    border-radius: 8px;
+    padding: 10px 0;
+    letter-spacing: 0.8px;
+}
+
+QPlainTextEdit {
+    background-color: #fff;
+}
+
+
+
+
