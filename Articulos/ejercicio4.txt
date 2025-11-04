@@ -1,3 +1,0 @@
-cadena saludo = "hola"
-entero $$$valor = 100
-booleano activo = yes
